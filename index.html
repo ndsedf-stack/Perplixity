@@ -1454,7 +1454,459 @@ modal.addEventListener('click', (e) => {
 generateReport();
 renderWeeks();
 renderDays();
-</script>
+  generateReport();
+renderWeeks();
+renderDays();
 
+/* === DÉBUT DE LA PARTIE 7 === */
+const PROMPT_IA_TXT = `
+... (je vais te donner le contenu ici) ...
+`;
+
+const PROGRAM = parseProgram(PROMPT_IA_TXT);
+/* === FIN DE LA PARTIE 7 === */
+/* === DÉBUT DE LA PARTIE 7 : PROGRAMME HYBRID MASTER 51 === */
+const PROMPT_IA_TXT = `
+🏆 HYBRID MASTER 51 - PROGRAMME COMPLET DÉFINITIF
+## Version Optimisée Finale - 26 Semaines
+
+---
+
+## 📋 INFORMATIONS GÉNÉRALES
+
+**Profil :** Homme 51 ans, expérience intermédiaire (6 mois - 2 ans)  
+**Objectif :** Hypertrophie maximale sécurisée  
+**Durée :** 26 semaines (6 mois)  
+**Fréquence :** 3 séances/semaine (Dimanche, Mardi, Vendredi)  
+**Durée séances :** 68-70-73 min (moyenne 70 min)  
+**Deloads :** Semaines 6, 12, 18, 24, 26
+
+---
+
+## 🎯 RÉSULTATS ATTENDUS (26 SEMAINES)
+
+| Métrique | Prédiction |
+|----------|------------|
+| Masse maigre | +4.5 à 5.5 kg |
+| Tour de bras | +2.5 à 3 cm |
+| Tour de poitrine | +3.5 à 4 cm |
+| Tour d'épaules | +3 à 3.5 cm |
+| Tour de dos | +4 à 5 cm |
+| Tour de cuisse | +3 à 3.5 cm |
+| Force Trap Bar DL | +40 à 50 kg |
+| Taux complétion | 95%+ |
+| Risque blessure | <5% |
+
+---
+
+## 💪 PROGRAMME D'ENTRAÎNEMENT
+
+### DIMANCHE - DOS + JAMBES LOURDES + BRAS (68 min)
+
+| # | Exercice | Séries × Reps | Repos | Poids départ | Progression |
+|---|----------|---------------|-------|--------------|-------------|
+| 1 | Trap Bar Deadlift | 5×6-8 | 120s | 75 kg | +5 kg / 3 sem |
+| 2 | Goblet Squat | 4×10 | 75s | 25 kg (haltère) | +2.5 kg / 2 sem |
+| 3 | Leg Press | 4×10 | 75s | 110 kg | +10 kg / 2 sem |
+| 4 | **SUPERSET :**<br>• Lat Pulldown (prise large)<br>• Landmine Press | 4×10<br>4×10 | 90s | 60 kg<br>35 kg | +2.5 kg / 2 sem<br>+2.5 kg / 2 sem |
+| 5 | Rowing Machine (prise large) | 4×10 | 75s | 50 kg | +2.5 kg / 2 sem |
+| 6 | **SUPERSET :**<br>• Spider Curl / Incline Curl*<br>• Cable Pushdown | 4×12<br>3×12 | 75s | 12 kg (haltère)<br>20 kg | +2.5 kg / 3 sem<br>+2.5 kg / 3 sem |
+
+**TOTAL : 31 séries - 68 minutes**
+
+**Notes :**
+- *Spider Curl Blocs 2 & 4 (S7-11, S19-25) / Incline Curl Blocs 1 & 3 (S1-5, S13-17)
+- Prise large Lat Pulldown : mains écartées 1.5× largeur épaules
+- Prise large Rowing Machine : coudes vers extérieur, tire vers bas des pecs
+
+---
+`;
+/* === FIN BLOC 7.1 / 7 === */
+/* === DÉBUT BLOC 7.2 / 7 === */
+PROMPT_IA_TXT += `
+### MARDI - PECS + ÉPAULES + TRICEPS (70 min)
+
+| # | Exercice | Séries × Reps | Repos | Poids départ | Progression |
+|---|----------|---------------|-------|--------------|-------------|
+| 1 | Dumbbell Press | 5×10 | 105s | 22 kg/haltère | +2.5 kg / 3 sem |
+| 2 | Cable Fly (poulies moyennes) | 4×12 | 60s | 10 kg | +2.5 kg / 3 sem |
+| 3 | Leg Press léger | 3×15 | 60s | 80 kg | +10 kg / 3 sem |
+| 4 | **SUPERSET :**<br>• Extension Triceps Corde<br>• Lateral Raises | 5×12<br>5×15 | 75s | 20 kg<br>8 kg (haltère) | +2.5 kg / 3 sem<br>+2.5 kg / 4 sem |
+| 5 | Face Pull | 5×15 | 60s | 20 kg | +2.5 kg / 3 sem |
+| 6 | Rowing Machine (prise serrée) | 4×12 | 75s | 50 kg | +2.5 kg / 2 sem |
+| 7 | Overhead Extension (corde, assis) | 4×12 | 60s | 15 kg | +2.5 kg / 3 sem |
+
+**TOTAL : 35 séries - 70 minutes**
+
+**Notes :**
+- Prise serrée Rowing Machine : mains largeur épaules, coudes le long du corps, tire vers nombril
+- Cable Fly poulies à hauteur épaules (moyennes)
+
+---
+
+### VENDREDI - DOS + JAMBES LÉGÈRES + BRAS + ÉPAULES (73 min)
+
+| # | Exercice | Séries × Reps | Repos | Poids départ | Progression |
+|---|----------|---------------|-------|--------------|-------------|
+| 1 | Landmine Row | 5×10 | 105s | 55 kg | +2.5 kg / 2 sem |
+| 2 | **SUPERSET :**<br>• Leg Curl<br>• Leg Extension | 5×12<br>4×15 | 75s | 40 kg<br>35 kg | +5 kg / 3 sem<br>+5 kg / 3 sem |
+| 3 | **SUPERSET :**<br>• Cable Fly<br>• Dumbbell Fly | 4×15<br>4×12 | 60s | 10 kg<br>10 kg (haltère) | +2.5 kg / 3 sem<br>+2.5 kg / 3 sem |
+| 4 | **SUPERSET :**<br>• EZ Bar Curl<br>• Overhead Extension | 5×12<br>3×12 | 75s | 25 kg<br>15 kg | +2.5 kg / 3 sem<br>+2.5 kg / 3 sem |
+| 5 | Lateral Raises | 3×15 | 60s | 8 kg (haltère) | +2.5 kg / 4 sem |
+| 6 | Wrist Curl | 3×20 | 45s | 30 kg | +2.5 kg / 4 sem |
+
+**TOTAL : 33 séries - 73 minutes**
+
+**+ MAISON :** Hammer Curl 3×12 (Mardi soir + Jeudi soir) - 12 kg haltère
+
+---
+
+## 📊 VOLUME HEBDOMADAIRE PAR MUSCLE
+
+| Muscle | Séries Direct | Séries Indirect | Total | Fréquence | Optimal |
+|--------|---------------|-----------------|-------|-----------|---------|
+| Quadriceps | 16 | 7 | 23 | 3×/sem | 18-24 ✅ |
+| Ischios | 10 | 7 | 17 | 2×/sem | 14-20 ✅ |
+| Fessiers | 9 | 10 | 19 | 3×/sem | 14-20 ✅ |
+| Dos | 22 | 8 | 30 | 3×/sem | 18-24 ✅ |
+| Pectoraux | 17 | 5 | 22 | 3×/sem | 16-22 ✅ |
+| Épaules post | 9 | 3 | 12 | 2×/sem | 10-14 ✅ |
+| Épaules lat. | 8 | 2 | 10 | 3×/sem | 6-10 ✅ |
+| Biceps | 9 | 10 | 19 | 3×/sem | 14-20 ✅ |
+| Triceps | 15 | 5 | 20 | 3×/sem | 12-18 ✅ |
+| Avant-bras | 3 | 13 | 16 | 3×/sem | 6-12 ✅ |
+
+---
+`;
+/* === FIN BLOC 7.2 / 7 === */
+---
+
+### BLOC 3 (S13-17) : SURCOMPENSATION
+
+**Objectif :** Intensification métabolique, stress musculaire maximal
+
+**Techniques :**
+
+**A. DROP-SETS (dernière série, -25% charge) :**
+
+**Dimanche :**
+- Goblet Squat S4 : 10 reps → drop 25% → 8-10 reps
+- Leg Press S4 : 10 reps → drop 25% → 10-12 reps
+- Lat Pulldown S4 : 10 reps → drop 20% → 8-10 reps
+
+**Mardi :**
+- Dumbbell Press S5 : 10 reps → drop 25% → 8-10 reps
+- Cable Fly S4 : 12 reps → drop 25% → 10-12 reps
+- Extension Triceps S5 : 12 reps → drop 20% → 10-12 reps
+- Lateral Raises S5 : 15 reps → drop 25% → 12-15 reps
+
+**Vendredi :**
+- Landmine Row S5 : 10 reps → drop 20% → 8-10 reps
+- Leg Curl S5 : 12 reps → drop 25% → 10-12 reps
+- Leg Extension S4 : 15 reps → drop 25% → 12-15 reps
+- Dumbbell Fly S4 : 12 reps → drop 25% → 10-12 reps
+
+**B. MYO-REPS (dernière série isolations) :**
+- Face Pull S5 : 15 reps → repos 5s → 5 mini-sets de 5 reps
+- Overhead Extension S4 : 12 reps → repos 5s → 4 mini-sets de 4 reps
+- Incline Curl S4 : 12 reps → repos 5s → 4 mini-sets de 4 reps
+- Cable Fly S4 : 15 reps → repos 5s → 5 mini-sets de 5 reps
+- Rowing Machine S4 : 12 reps → repos 5s → 4 mini-sets de 4 reps
+
+**RPE cible :** 8  
+**Deload :** Semaine 18 (-40% charges, tempo 4-1-2, RPE 5-6)
+
+---
+
+### BLOC 4 (S19-25) : INTENSIFICATION MAXIMALE
+
+**Objectif :** Gains maximaux, techniques avancées combinées
+
+**Techniques :**
+
+**A. CLUSTERS (exercices principaux lourds, dernière série) :**
+- Trap Bar Deadlift S5 : 3 reps → 20s → 2 reps → 20s → 2 reps (7 total)
+- Dumbbell Press S5 : 4 reps → 15s → 3 reps → 15s → 3 reps (10 total)
+- Landmine Row S5 : 4 reps → 15s → 3 reps → 15s → 3 reps (10 total)
+- Leg Press S4 : 4 reps → 20s → 3 reps → 20s → 3 reps (10 total)
+
+**B. MYO-REPS (TOUTES les isolations, dernière série) :**
+- Face Pull, Lateral Raises, Overhead Extension
+- Cable Fly (×2), Dumbbell Fly
+- Spider Curl, EZ Bar Curl
+- Rowing Machine, Extension Triceps
+- Protocol standard : reps complètes → repos 5s → 4-5 mini-sets
+
+**C. PARTIALS (fin de série jambes) :**
+- Goblet Squat S4 : 10 reps complètes → 5 demi-reps (amplitude haute)
+- Leg Press S4 : 10 reps complètes → 8 quarts de reps
+- Leg Curl S5 : 12 reps complètes → 6-8 partials (amplitude haute)
+- Leg Extension S4 : 15 reps complètes → 10 partials (derniers 30°)
+
+**RPE cible :** 8-9  
+**Deloads :** Semaines 24 & 26 (-40% charges, tempo 4-1-2, RPE 5-6)
+
+---
+
+## 🔬 SUPPLÉMENTATION OBLIGATOIRE
+
+| Supplément | Dosage | Timing | Objectif |
+|------------|--------|--------|----------|
+| Protéines | 2g/kg poids corps | Répartis sur journée | Construction musculaire |
+| Créatine Monohydrate | 5g/jour | Post-training | Force + volume cellulaire |
+| Collagène | 10g/jour | Matin à jeun | Santé tendons/articulations |
+| Oméga-3 (EPA/DHA) | 3g/jour | Avec repas | Anti-inflammatoire |
+| Vitamine D3 | 4000 UI/jour | Matin | Testostérone + immunité |
+| ZMA (Zinc+Magnésium) | Selon étiquette | 30 min avant coucher | Testostérone + sommeil |
+| Whey Isolate | 30g | Post-training immédiat | Récupération rapide |
+| Glucides rapides | 50g | Post-training | Recharge glycogène |
+| Électrolytes | 1 dose | Pendant training | Hydratation optimale |
+
+**SUPPLÉMENTS OPTIONNELS MAIS RECOMMANDÉS :**
+- Glucosamine + Chondroïtine 1500mg/jour (santé articulaire)
+- Curcumine 500mg matin (anti-inflammatoire naturel)
+- Magnésium bisglycinate 400mg soir (récupération musculaire)
+---
+
+## 🍽️ NUTRITION
+
+**CALORIES :**
+- Calcul : Poids (kg) × 35-38 = calories maintenance  
+- Surplus : +300 à +500 kcal/jour pour prise de masse  
+
+**MACROS :**
+- Protéines : 2g/kg minimum (priorité absolue)  
+- Glucides : 3-4g/kg (énergie entraînement)  
+- Lipides : 0.8-1g/kg (hormones, santé)  
+
+**TIMING :**
+- Pré-training (1-2h avant) : 30-40g protéines + 50-60g glucides  
+- Post-training (dans les 30 min) : 30g whey + 50g glucides rapides  
+- Avant coucher : 30g caséine ou fromage blanc + ZMA  
+
+**HYDRATATION :**
+- Minimum 3L eau/jour  
+- +500ml par heure d'entraînement  
+
+---
+
+## 😴 RÉCUPÉRATION
+
+**SOMMEIL :**
+- Minimum 7h30/nuit (optimal 8h)  
+- Coucher/lever réguliers  
+- Chambre fraîche (18-19°C), obscurité totale  
+- ZMA 30 min avant coucher  
+
+**SIGNES SURENTRAÎNEMENT (arrêt immédiat si) :**
+- Insomnie persistante (>3 nuits)  
+- Douleur articulaire aiguë  
+- Fatigue extrême constante  
+- Perte de motivation totale  
+- Régression force sur 2 séances consécutives  
+- Fréquence cardiaque repos +10 bpm vs normale  
+
+**ACTION SI SURENTRAÎNEMENT :**
+- Deload anticipé immédiat (1 semaine -50% charges)  
+- Sommeil 9h minimum  
+- Massage/kiné si douleurs  
+- Retour progressif ensuite  
+
+---
+
+## 🏋️ ÉCHAUFFEMENT (CHAQUE SÉANCE)
+
+**PHASE 1 : Cardio léger (5 min)**
+- Vélo/rameur/tapis roulant  
+- Intensité : 60-70% FC max  
+- Objectif : augmenter température corporelle  
+
+**PHASE 2 : Mobilité articulaire (5 min)**
+- Rotations épaules : 2×10 avant/arrière  
+- Cat-Cow (dos) : 2×10  
+- Leg Swings (hanches) : 2×10 chaque jambe  
+- Rotations poignets/chevilles : 2×10  
+- Dislocations épaules (bâton) : 2×10  
+
+**PHASE 3 : Échauffement spécifique (par exercice lourd)**  
+
+Exemple Trap Bar Deadlift (charge travail 100 kg) :  
+- Série 1 : Barre vide × 10 reps  
+- Série 2 : 40 kg × 8 reps  
+- Série 3 : 60 kg × 5 reps  
+- Série 4 : 80 kg × 3 reps  
+- Série 5 : 90 kg × 1 rep  
+→ Série travail : 100 kg × 6-8 reps  
+
+**Règle générale échauffement spécifique :**
+- 40% charge → 8 reps  
+- 60% charge → 5 reps  
+- 80% charge → 3 reps  
+- 90% charge → 1 rep  
+→ 100% charge travail  
+
+---
+
+## ⚠️ SÉCURITÉ & PRÉVENTION BLESSURES
+
+**RÈGLES D'OR :**
+
+1. **Technique > Charge TOUJOURS**  
+   - Ego lifting = blessure garantie à 51 ans  
+   - Si technique se dégrade = STOP, réduire charge  
+
+2. **Douleur ≠ Courbature**  
+   - Courbature = OK (muscle)  
+   - Douleur articulaire/tendineuse = STOP immédiat  
+
+3. **Progression conservative**  
+   - Ne JAMAIS sauter d'échelon de progression  
+   - RPE >9 = maintenir charge, ne pas augmenter  
+   - 2 séances RPE >9 = réduire -5% charge  
+
+4. **Respiration**  
+   - Inspirer descente (excentrique)  
+   - Expirer montée (concentrique)  
+   - JAMAIS d'apnée prolongée (risque tension)  
+
+5. **Amplitude contrôlée**  
+   - Privilégier amplitude complète SAUF si douleur  
+   - Si douleur en fin d'amplitude = réduire ROM  
+
+**SIGNAUX D'ALERTE (ARRÊT IMMÉDIAT) :**
+- ❌ Douleur aiguë articulaire  
+- ❌ Craquement/claquement tendon  
+- ❌ Engourdissement/fourmillement  
+- ❌ Perte de force soudaine  
+- ❌ Vertiges/nausées  
+- ❌ Douleur thoracique  
+---
+
+## 📊 SUIVI & PROGRESSION
+
+**CARNET D'ENTRAÎNEMENT :**
+- Date, heure, durée sommeil nuit précédente  
+- Poids corporel  
+- Exercices : séries × reps × charge  
+- RPE par exercice  
+- Notes : sensations, douleurs, énergie  
+
+**MESURES (toutes les 4 semaines) :**
+- Poids corporel à jeun  
+- Tour de bras, poitrine, épaules, taille, cuisses  
+- Photos (face/profil/dos)  
+
+**CRITÈRES PROGRESSION :**
+- ✅ RPE ≤6 sur 2 séances = + charge  
+- ✅ Technique parfaite  
+- ✅ Pas de douleur  
+
+**CRITÈRES MAINTIEN :**
+- RPE 7-8 constant  
+- Fatigue gérable  
+
+**CRITÈRES RÉDUCTION (-5%) :**
+- RPE >9 deux séances  
+- Douleur articulaire  
+- Insomnie  
+
+---
+
+## 🎯 CHECKLIST QUOTIDIENNE
+
+**JOUR D’ENTRAÎNEMENT :**
+- ☐ Sommeil 7h30+  
+- ☐ Hydratation 500ml avant séance  
+- ☐ Échauffement complet  
+- ☐ Noter perfs  
+- ☐ Post-training whey + glucides  
+- ☐ Étirements légers  
+
+**JOUR DE REPOS :**
+- ☐ Sommeil 8h  
+- ☐ Protéines 2g/kg  
+- ☐ Hydratation 3L  
+- ☐ Marche 20-30 min  
+- ☐ Hammer Curl maison  
+- ☐ ZMA avant coucher  
+
+---
+
+## 📅 CALENDRIER TYPE
+
+**Lundi :** Repos  
+**Mardi :** Training (Pecs/Épaules/Triceps)  
+**Mercredi :** Repos  
+**Jeudi :** Training (Dos/Jambes)  
+**Vendredi :** Repos  
+**Samedi :** Training (Full mix)  
+**Dimanche :** Repos  
+
+⚙️ Ajustable selon ton agenda, mais respecter 48h entre deux séances jambes/dos.
+
+---
+
+## 🏆 OBJECTIFS INTERMÉDIAIRES
+
+- S6 : Technique parfaite + +1 kg masse maigre  
+- S12 : +2 kg masse maigre, +1 cm bras  
+- S18 : +3 kg masse maigre, myo-reps maîtrisées  
+- S26 : +4.5 à +5.5 kg masse maigre, physique transformé  
+
+---
+
+## 🎖️ CONTRAT AVEC SOI-MÊME
+
+**Je m’engage à :**
+- Suivre le programme 26 semaines  
+- Dormir 7h30+ / nuit  
+- Appliquer chaque deload  
+- Ne pas sauter de séances  
+- Prioriser technique sur charge  
+
+**Je refuse :**
+- Ego lifting  
+- Modifier le plan  
+- Sauter échauffement  
+- Négliger sommeil ou nutrition  
+
+**Signature mentale : ____________**
+
+---
+
+## 💪 MOTIVATION & MINDSET
+
+- “La constance bat le talent.”  
+- “Chaque rep compte.”  
+- “Je construis mon corps pour 40 ans, pas 40 jours.”  
+- “Deload = stratégie, pas faiblesse.”  
+
+**Visualisation :**
+Avant chaque séance, visualise tes reps parfaites.  
+Respire, concentre-toi, et attaque.
+
+---
+
+## 🔥 MESSAGE FINAL
+
+Félicitations d’être allé jusqu’ici.  
+Ce programme est ta feuille de route vers la meilleure version de toi-même.  
+Tu as maintenant TOUT : structure, progression, sécurité, nutrition et mental.
+
+💡 **Ne cherche pas la perfection. Cherche la constance.**
+
+👉 Commence demain.  
+Première séance : **Dimanche - Dos + Jambes Lourdes + Bras**
+
+**GO. TU AS TOUT CE QU’IL FAUT.** 💪🔥
+
+═══════════════════════════════════════════════  
+**FIN DU PROGRAMME – HYBRID MASTER 51 (Version 1.0 Finale)**  
+📅 **Date : 28 Octobre 2025**  
+═══════════════════════════════════════════════
+`;
+/* === FIN DU PROMPT IA TXT === */
+
+</script>
 </body>
 </html>
